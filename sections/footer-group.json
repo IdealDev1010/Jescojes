@@ -1,0 +1,77 @@
+{
+  "name": "t:sections.footer-group.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "heading": "HELP",
+            "menu": "kikstart-footer-help"
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "About JESCOJES",
+            "menu": "kikstart-footer-about-jescojes"
+          }
+        },
+        "link_list_tL3FyC": {
+          "type": "link_list",
+          "settings": {
+            "heading": "EXPLORE",
+            "menu": "kikstart-footer-explore"
+          }
+        },
+        "image_hEiYKR": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer.jpg",
+            "image_width": 200,
+            "alignment": "left",
+            "link": "",
+            "text": "Get $100 off In-store appointment and purchase   - Book an Appointment"
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "link_list_tL3FyC",
+        "image_hEiYKR"
+      ],
+      "custom_css": [
+        "footer .accordion__title {font-size: 1.5rem;}"
+      ],
+      "settings": {
+        "show_divider": false,
+        "newsletter_enable": true,
+        "newsletter_heading": "JOIN IN OUR COMMUNITY",
+        "newsletter_text": "<p>Sign in via email to enjoy 10% OFF on your first order.<\/p>",
+        "return_url": "",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "social_heading": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "copyright_text": "All rights reserved.",
+        "shop_info": "<p>Address: 5th Floor, Building 11, No. 6055 Jinhai Highway, Fengxian District, Shanghai, P.R.China  <a href=\"tel:+86-186-1679-2160\" target=\"_blank\" title=\"tel:+86-186-1679-2160\">Tel+86-186-1679-2160<\/a>  E-mail: <a href=\"mailto:service@jescojes.com\" target=\"_blank\" title=\"mailto:service@jescojes.com\">service@jescojes.com<\/a><\/p>",
+        "colors_text": "#000000",
+        "colors_heading": "#000000",
+        "colors_link": "#212326",
+        "colors_border": "#000000",
+        "colors_background": "#faf7f0",
+        "gradient_background": ""
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

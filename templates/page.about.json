@@ -1,0 +1,457 @@
+{
+  "sections": {
+    "video_hero_wzmbDa": {
+      "type": "video-hero",
+      "blocks": {
+        "heading_m9CEyd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_8iLpUF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_LxCJEA": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m9CEyd",
+        "text_8iLpUF",
+        "button_LxCJEA"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_url": "",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "500px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "image_banner_M99xxn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FGyRwg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_PmifyD": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_WxixpP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_FGyRwg",
+        "text_PmifyD",
+        "button_WxixpP"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our_story-banner.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "adapt",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "ambient",
+        "mobile_image": "shopify:\/\/shop_images\/our_story-banner.jpg",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>JESCOJES revolutionizes jewelry shopping by blending culture and individuality. With Oliver and Jimmy's expertise, we deliver top-tier design and quality. <br\/>Our curated supply chain and tech savvy create unique pieces, connecting designers directly with consumers worldwide.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "heading_ydWrgd": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "JESCOJES revolutionizes jewelry shopping by blending culture and individuality. With Oliver and Jimmy's expertise, we deliver top-tier design and quality.              Our curated supply chain and tech savvy create unique pieces, connecting designers directly with consumers worldwide.",
+            "heading_size": "p",
+            "heading_tag": "p"
+          }
+        },
+        "heading_gGtMnh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "heading_ydWrgd",
+        "heading_gGtMnh"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_jhLMxP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fPKHb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>JESCOJES<\/strong> innovates jewelry shopping by blending culture and individuality. With Oliver and Jimmy's expertise, we deliver top-tier design and quality. <br\/>Our curated supply chain and tech savvy create unique pieces, connecting designers directly with consumers worldwide.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "heading_e39UMt": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "JESCOJES revolutionizes jewelry shopping by blending culture and individuality. With Oliver and Jimmy's expertise, we deliver top-tier design and quality.              Our curated supply chain and tech savvy create unique pieces, connecting designers directly with consumers worldwide.",
+            "heading_size": "p",
+            "heading_tag": "p"
+          }
+        }
+      },
+      "block_order": [
+        "text_fPKHb8",
+        "heading_e39UMt"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>In the era of globalization, Oliver and Jimmy, friends for many years, have each accumulated rich experience in different fields and countries. Oliver, a technology-savvy strategist, has served as the head of operations for multiple international brands and successfully led several companies to IPOs. His expertise ranges from technology research and development to global market expansion. At the same time, Jimmy is a professional photographer who graduated from the visual design major. He not only mastered the essence of visual art, but also led a global team in the Internet industry to provide services to global users and has profound international market insights. <\/li><\/ul><p><\/p><ul><li>When the two world citizens' shared journeys intersect again, they discover a shared opportunity. They were inspired to start the business after hearing from friends and family at an international family gathering about the challenge of finding designer jewelry that was both personal and cost-effective. Determined to leverage their professional skills and international perspective, Oliver and Jimmy created <strong>JESCOJES <\/strong>in 2024, a brand name that draws on the French <strong>\"Je suis comme je suis\" (I am who I am)<\/strong>, symbolizing each person's uniqueness and pursuit of individual expression. <\/li><\/ul>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us-00_59a62408-06e6-4aac-b6b1-3d1a5303ac16.jpg",
+        "image_position": "top center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "750px",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "rich_text_jwBqgW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FNaYDq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When the two world citizens' shared journeys intersect again, they discover a shared opportunity. They were inspired to start the business after hearing from friends and family at an international family gathering about the challenge of finding designer jewelry that was both personal and cost-effective. Determined to leverage their professional skills and international perspective, Oliver and Jimmy created <strong>JESCOJES <\/strong>in 2024, a brand name that draws on the French <strong>\"Je suis comme je suis\" (I am who I am)<\/strong>, symbolizing each person's uniqueness and pursuit of individual expression. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text_FNaYDq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#000000",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>JESCOJES<\/strong> aims to redefine the jewelry buying experience in a new way, making it a showcase of culture and personality. Oliver's global operational experience and Jimmy's visual design talents work together to ensure the brand's excellence in design, quality and user experience. Their carefully curated global supply chain and deep understanding of technology enable JESCOJES to offer unparalleled products that not only meet the high standards of the market, but also provide a platform for jewelry designers to communicate directly with consumers around the world.<\/li><\/ul>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us-7.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>JESCOJES<\/strong> is not just about selling jewelry, it is a brand that promotes cultural exchange and innovation, creating a win-win ecosystem for designers and consumers through a strong international network and cutting-edge technology. As the brand continues to evolve, Oliver and Jimmy maintain their commitment to innovation, ensuring that each customer can find unique jewelry that truly expresses themselves.<\/li><\/ul>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us--8.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "image_with_text_overlay_jk8VFU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RMYiEQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "This is JESCOJES, a truly international brand that helps everyone show the confidence and style of \"I am who I am\".",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "button_qHbfLk": {
+          "type": "button",
+          "settings": {
+            "button_label": "See All Collection",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RMYiEQ",
+        "button_qHbfLk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us-8.jpg",
+        "image_position": "center center",
+        "text_box_position": "flex-start",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_box_position": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "video_url": "",
+        "colors_button_label": "#000000",
+        "colors_button_background": "#bda37d",
+        "colors_text": "#212326",
+        "colors_overlay": "#faf7f0",
+        "colors_overlay_opacity": 92,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "video_hero_wzmbDa",
+    "main",
+    "image_banner_M99xxn",
+    "rich-text-0",
+    "rich_text_jhLMxP",
+    "image-with-text-0",
+    "rich_text_jwBqgW",
+    "image-with-text-1",
+    "image-with-text-2",
+    "image_with_text_overlay_jk8VFU"
+  ]
+}

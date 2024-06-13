@@ -1,0 +1,549 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "settings": {
+            "text_style": "body",
+            "show_divider": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": false,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "judge_me_reviews_preview_badge_QKfzym": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": "contact-1"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.metafields.custom.short_description | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible_tab-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Product Details",
+            "content": "{{ product.metafields.custom.product_details | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Shipping",
+            "content": "",
+            "page": "",
+            "custom_liquid": "<div class=\"delivery-widget__manual\"><\/div>",
+            "keep_open": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "selleasy_lb_upsell_fbt_block_yA7fQB": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "title",
+        "price",
+        "judge_me_reviews_preview_badge_QKfzym",
+        "rating",
+        "variant_picker",
+        "buy_buttons",
+        "vendor",
+        "description",
+        "collapsible_tab-0",
+        "collapsible_tab-1",
+        "sticky_cart",
+        "selleasy_lb_upsell_fbt_block_yA7fQB"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "columns",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "tab_collage_BEKCAp": {
+      "type": "tab-collage",
+      "blocks": {
+        "image_MjxEYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1_1.png",
+            "image_position": "center center",
+            "heading": "Artisanally Crafted",
+            "description": "<p>Our carefully chosen artisans pour their expertise into crafting each piece, ensuring you receive the epitome of affordable luxury.<br\/><br\/>Discover the epitome of elegance and craftsmanship with our artisanally crafted jewelry collection. Each piece tells a story of meticulous artistry and passion, blending timeless design with modern sensibility. Handcrafted with the finest materials and attention to detail, our jewelry is more than adornment; it's an expression of individuality and style. Elevate your look with pieces that are as unique as you are, and let our artisanal creations become cherished heirlooms for generations to come.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_p6KDUy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_39.png",
+            "image_position": "center center",
+            "heading": "Made to Last",
+            "description": "<p>Experience the enduring beauty of our 'Made to Last' jewelry collection, where every piece is crafted with a commitment to longevity and quality. Merging exquisite design with exceptional durability, our meticulously curated selection stands the test of time, both in style and substance. <br\/><br\/>From timeless classics to contemporary statements, each creation is expertly fashioned using the finest materials and techniques, ensuring a lifetime of wear and admiration. Embrace the confidence that comes with owning jewelry that not only enhances your elegance but also becomes an enduring symbol of your enduring spirit.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_nDBFPr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column-7.jpg",
+            "image_position": "center center",
+            "heading": "30 Days Quality Assured",
+            "description": "<p>Indulge in the assurance of quality with our exclusive '30 Days Quality Assured' jewelry collection. Crafted with precision and passion, each piece undergoes rigorous inspection to ensure flawless craftsmanship and lasting beauty. From intricate designs to minimalist elegance, our curated selection offers something for every style and occasion. <br\/><br\/>With our commitment to excellence, we guarantee your satisfaction for a full 30 days after purchase. Experience peace of mind and unparalleled beauty with jewelry that's as dependable as it is dazzling.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MjxEYr",
+        "image_p6KDUy",
+        "image_nDBFPr"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Crafted With Honesty and Compassion",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9f9f9",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0
+      }
+    },
+    "tab_collage_kndQ4U": {
+      "type": "tab-collage",
+      "blocks": {
+        "image_Hdh4W4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_e4e3e454-5ab3-4b28-ad71-38cef91a78bd.png",
+            "image_position": "center center",
+            "heading": "@ailamorin",
+            "description": "<p>\"From the moment I laid eyes on the stunning necklace I purchased, I knew it was something special. The intricate details and fine craftsmanship truly set it apart from other pieces I've seen. Wearing it makes me feel like I'm adorned in a work of art. The compliments I receive whenever I wear it are just the cherry on top! I'm already browsing their collection for my next investment piece.\"<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_pzGDYa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_e4e3e454-5ab3-4b28-ad71-38cef91a78bd.png",
+            "image_position": "center center",
+            "heading": "@marina_torres",
+            "description": "<p>\"I've always been skeptical about buying jewelry online, but this brand has completely changed my mind. The necklace I ordered arrived promptly and was even more beautiful in person than it appeared on the website. The quality is exceptional, and I love the attention to detail in every aspect of the design. It's quickly become my go-to accessory for both casual and formal occasions. I can't wait to explore more of their collection!\"<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_LGHBzR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_e4e3e454-5ab3-4b28-ad71-38cef91a78bd.png",
+            "image_position": "center center",
+            "heading": "@veroniquebelle",
+            "description": "<ol><li>\"What initially drew me to this brand was their reputation for outstanding customer service, and they did not disappoint. The team was incredibly helpful and patient as they answered all of my questions and helped me find the perfect piece. When my order arrived, I was blown away by the quality and craftsmanship of the jewelry. It's evident that each piece is made with care and attention to detail. I've already recommended this brand to all of my friends and family!\"<\/li><\/ol><p><\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdh4W4",
+        "image_pzGDYa",
+        "image_LGHBzR"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Why We Love Jescojes",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9f9f9",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0
+      }
+    },
+    "testimonials_kCzVek": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_LBFejM": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>\"As someone who values both style and substance, this jewelry piece ticks all the boxes for me. Not only is it visually stunning, but its durability and timeless appeal make it a worthy investment. I've worn it countless times, and each wear feels like a celebration of elegance and grace.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column-1.png",
+            "author": "Claire"
+          }
+        },
+        "testimonial_e8YFpm": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<ol><li>\"I've never been one to follow trends, but this jewelry piece transcends fashion fads with its timeless allure. It's become my go-to accessory for every occasion, whether it's a romantic dinner or a professional meeting. The compliments I receive are just the icing on the cake—I know I've found a true treasure in this piece.\"<\/li><li><\/li><\/ol>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1.png",
+            "author": "Jason"
+          }
+        },
+        "testimonial_pAmJzj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<ol><li>\"I've always believed that jewelry should tell a story, and this piece does exactly that. Its unique design and impeccable craftsmanship speak volumes about its quality and charm. Whether it's a casual day out or a special occasion, this jewelry effortlessly elevates my look and adds a touch of glamour to my life.\"<\/li><\/ol>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column-2.png",
+            "author": "Brent"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_LBFejM",
+        "testimonial_e8YFpm",
+        "testimonial_pAmJzj"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "Inspiring Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 96,
+        "padding_bottom": 48
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "shop_the_look_cHLDAq": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_Fyf6Jd": {
+          "type": "product",
+          "settings": {
+            "product": "elegance-flawless-natural-freshwater-pearls-drop-earrings",
+            "color": "#ffffff",
+            "horizontal": 42,
+            "vertical": 28
+          }
+        },
+        "product_BXQbiM": {
+          "type": "product",
+          "settings": {
+            "product": "test-moissanite-snowflake-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 58,
+            "vertical": 45
+          }
+        },
+        "product_bPeNGq": {
+          "type": "product",
+          "settings": {
+            "product": "sweet-heart-gold-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 61,
+            "vertical": 71
+          }
+        }
+      },
+      "block_order": [
+        "product_Fyf6Jd",
+        "product_BXQbiM",
+        "product_bPeNGq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop-the-look.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Complete the Look",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "shop_the_look_aqygTJ": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_e7UykG": {
+          "type": "product",
+          "settings": {
+            "product": "elegance-flawless-natural-freshwater-pearls-drop-earrings",
+            "color": "#ffffff",
+            "horizontal": 41,
+            "vertical": 29
+          }
+        },
+        "product_xAWgrJ": {
+          "type": "product",
+          "settings": {
+            "product": "test-moissanite-snowflake-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 53,
+            "vertical": 52
+          }
+        },
+        "product_7Tb6Pc": {
+          "type": "product",
+          "settings": {
+            "product": "sweet-heart-gold-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 65,
+            "vertical": 74
+          }
+        }
+      },
+      "block_order": [
+        "product_e7UykG",
+        "product_xAWgrJ",
+        "product_7Tb6Pc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/shop-the-look.jpg",
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 0,
+        "padding_bottom": 96
+      }
+    },
+    "17155632117558d433": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_dWbkpC": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_dWbkpC"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "tab_collage_BEKCAp",
+    "tab_collage_kndQ4U",
+    "testimonials_kCzVek",
+    "recently-viewed-products",
+    "shop_the_look_cHLDAq",
+    "shop_the_look_aqygTJ",
+    "17155632117558d433",
+    "product-recommendations"
+  ]
+}

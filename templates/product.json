@@ -1,0 +1,871 @@
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "breadcrumb": {
+          "type": "breadcrumb",
+          "disabled": true,
+          "settings": {
+            "text_style": "body",
+            "show_divider": true
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": true,
+            "show_price_desktop": true,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": false,
+            "mobile_price": true,
+            "price_compare": false,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_8ytncP": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"product-value\">{{ product.metafields.custom.product_values }}<\/p>"
+          }
+        },
+        "custom_liquid_Q9d4AE": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"embedded_app\">\n<!-- Start of Judge.me code --> \n  <div class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}'> \n    {{ product.metafields.judgeme.badge }} \n  <\/div> \n<!-- End of Judge.me code -->\n<div class=\"wishlist-engine\" data-product_id=\"{{  product.id }}\" data-variant_id=\"{{ product.selected_or_first_available_variant.id }}\" data-full_button=\"false\" data-css=\"true\"><\/div>\n<\/div>"
+          }
+        },
+        "judge_me_reviews_preview_badge_QKfzym": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "variant",
+            "swatch_type": "round",
+            "enable_swatch_cross": false,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": "contact-1",
+            "size_footer_title": "Need help finding your size? Let us help.",
+            "icon_one": "none",
+            "button_label_one": "Button label",
+            "button_link_one": "",
+            "icon_two": "none",
+            "button_label_two": "Button label",
+            "button_link_two": "",
+            "icon_three": "none",
+            "button_label_three": "Button label",
+            "button_link_three": "",
+            "icon_four": "none",
+            "button_label_four": "Button label",
+            "button_link_four": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "icon_text_ybnJtH": {
+          "type": "icon-text",
+          "settings": {
+            "icon-one": "shipping-truck",
+            "icon-heading-one": "FREE SHIPPING ON ORDERS OVER $99",
+            "icon-two": "returns",
+            "icon-heading-two": "30 DAY RETURNS",
+            "icon-three": "warranty",
+            "icon-heading-three": "2 YEAR WARRANTY"
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "{{ product.metafields.custom.short_description | metafield_text }}",
+            "text_style": "body"
+          }
+        },
+        "description_jrBKQF": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible_description_EM6czX": {
+          "type": "collapsible_description",
+          "settings": {
+            "icon": "none",
+            "heading": "Product Details",
+            "keep_open": true
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Shipping",
+            "content": "{{ product.metafields.custom.shipping | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_nBkUCw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "FAQs",
+            "content": "{{ product.metafields.custom.faq_s | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_wkUFNb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "Care Instructions",
+            "content": "{{ product.metafields.custom.care_instructions | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        },
+        "selleasy_lb_upsell_fbt_block_yA7fQB": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "breadcrumb",
+        "title",
+        "price",
+        "custom_liquid_8ytncP",
+        "custom_liquid_Q9d4AE",
+        "judge_me_reviews_preview_badge_QKfzym",
+        "variant_picker",
+        "buy_buttons",
+        "icon_text_ybnJtH",
+        "vendor",
+        "description_jrBKQF",
+        "collapsible_description_EM6czX",
+        "collapsible_tab-1",
+        "collapsible_tab_nBkUCw",
+        "collapsible_tab_wkUFNb",
+        "sticky_cart",
+        "selleasy_lb_upsell_fbt_block_yA7fQB"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "large",
+        "gallery_layout": "columns",
+        "image_ratio": "square",
+        "show_featured_media": true,
+        "show_thumbnails": false,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "tab_collage_BEKCAp": {
+      "type": "tab-collage",
+      "blocks": {
+        "image_MjxEYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Why_JESCOJES_-_Meticulously_Sourced_Materials_small_8d9b0903-b495-40b6-b93e-84156765fe18.jpg",
+            "image_position": "center center",
+            "heading": "Meticulously Sourced Materials",
+            "description": "<p>Strict sourcing of ethical, quality and environment-friendly materials, i.e. diamond, gemstone, precious metal, pearl, etc.<br\/>We believe that exquisite material is the fundamental guarantee of premium jewelry.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_p6KDUy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Why_JESCOJES_-_Exquisite_Design_Built_to_Endure_small_7381523f-017d-4556-893f-6c21a8cfaec0.jpg",
+            "image_position": "center center",
+            "heading": "Exquisite Design & Built to Endure",
+            "description": "<p>Jewelry designers from multiple backgrounds combine the essence of diverse culture and design concepts to meet your specific style preference.<br\/>Senior artisans pour their expertise into crafting each piece to meet rigid quality criteria that ensures durability.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_nDBFPr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Why_JESCOJES_-_Fair_Pricing_for_Accessible_Luxury_small_7abec9ed-d48e-4c4d-a348-362dc62386de.jpg",
+            "image_position": "center center",
+            "heading": "Fair Pricing for Accessible Luxury",
+            "description": "<p>To make luxury accessible, we've built cooperation with the best manufacturers to cut unnecessary costs while maintaining quality. And we sell directly to you without the traditional markups.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_MjxEYr",
+        "image_p6KDUy",
+        "image_nDBFPr"
+      ],
+      "settings": {
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Why JESCOJES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9f9f9",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0
+      }
+    },
+    "kiks_product_image_with_text_nHhELQ": {
+      "type": "kiks-product-image-with-text",
+      "blocks": {
+        "heading_QgJJdg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the Designer",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_GzGYcA": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.meet_the_designer_description | metafield_tag }}",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_VDAjbQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Designer Collection",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_QgJJdg",
+        "text_GzGYcA",
+        "button_VDAjbQ"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.designer_image.value }}",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "image_with_text_NYaMQr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QAMVry": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the Designer",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_f7VHXg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.meet_the_designer_description | metafield_tag }}",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_Ri8k34": {
+          "type": "button",
+          "settings": {
+            "button_label": "Browse Designer Collection",
+            "button_link": "{{ product.metafields.custom.designer_collection.value }}",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_QAMVry",
+        "text_f7VHXg",
+        "button_Ri8k34"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "{{ product.metafields.custom.designer_image.value }}",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "kiks_product_tab_collage_pHpttM": {
+      "type": "kiks-product-tab-collage",
+      "blocks": {
+        "image_VDAbgE": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image1.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username.value }}",
+            "description": "{{ product.metafields.custom.influencer_buyer_feedback | metafield_tag }}",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_pykfkT": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image2.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username2.value }}",
+            "description": "<p>{{ product.metafields.custom.influencer_buyer_feedback2 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_xKUV49": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image3.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username3.value }}",
+            "description": "<p>{{ product.metafields.custom.influencer_buyer_feedback3 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_VDAbgE",
+        "image_pykfkT",
+        "image_xKUV49"
+      ],
+      "settings": {
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Why We Love JESCOJES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9f9f9",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "tab_collage_kndQ4U": {
+      "type": "tab-collage",
+      "blocks": {
+        "image_Hdh4W4": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image1.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username.value }}",
+            "description": "{{ product.metafields.custom.influencer_buyer_feedback | metafield_tag }}",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_pzGDYa": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image2.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username2.value }}",
+            "description": "<p>{{ product.metafields.custom.influencer_buyer_feedback2 | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_LGHBzR": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.influencer_image3.value }}",
+            "image_position": "center center",
+            "heading": "{{ product.metafields.custom.username3.value }}",
+            "description": "<p>{{ product.metafields.custom.influencer_buyer_feedback3 | metafield_tag }}<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdh4W4",
+        "image_pzGDYa",
+        "image_LGHBzR"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "make_collapsible_rows": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "Why We Love JESCOJES",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_layout": "text_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f9f9f9",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 0
+      }
+    },
+    "kiks_product_testimonials_3ebeFD": {
+      "type": "kiks-product-testimonials",
+      "blocks": {
+        "testimonial_7Jc8ik": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>{{ product.metafields.custom.testimonial | metafield_tag }}<\/p>",
+            "image": "{{ product.metafields.custom.testimonial_image.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author1.value }}"
+          }
+        },
+        "testimonial_RatgPb": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "{{ product.metafields.custom.testimonial_2 | metafield_tag }}",
+            "image": "{{ product.metafields.custom.testimonial_image2.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author2.value }}"
+          }
+        },
+        "testimonial_3EpCBj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "{{ product.metafields.custom.testimonial_3 | metafield_tag }}",
+            "image": "{{ product.metafields.custom.testimonial_image_3.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7Jc8ik",
+        "testimonial_RatgPb",
+        "testimonial_3EpCBj"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "Inspiring Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "testimonials_kCzVek": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_LBFejM": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>{{ product.metafields.custom.testimonial | metafield_tag }}<\/p>",
+            "image": "{{ product.metafields.custom.testimonial_image.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author1.value }}"
+          }
+        },
+        "testimonial_e8YFpm": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "{{ product.metafields.custom.testimonial_2 | metafield_tag }}",
+            "image": "{{ product.metafields.custom.testimonial_image2.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author2.value }}"
+          }
+        },
+        "testimonial_pAmJzj": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "{{ product.metafields.custom.testimonial_3 | metafield_tag }}",
+            "image": "{{ product.metafields.custom.influencer_image3.value }}",
+            "author": "{{ product.metafields.custom.testimonial_author3.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_LBFejM",
+        "testimonial_e8YFpm",
+        "testimonial_pAmJzj"
+      ],
+      "disabled": true,
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "Inspiring Testimonials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 96,
+        "padding_bottom": 48,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "recently-viewed-products": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "show_divider": false,
+        "heading": "Recently Viewed",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "shop_the_look_cHLDAq": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_BXQbiM": {
+          "type": "product",
+          "settings": {
+            "product": "shining-bow-gold-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 48,
+            "vertical": 80
+          }
+        },
+        "product_bPeNGq": {
+          "type": "product",
+          "settings": {
+            "product": "premium-moissanite-romantic-snowflake-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 54,
+            "vertical": 92
+          }
+        },
+        "product_W9HcBn": {
+          "type": "product",
+          "settings": {
+            "product": "premium-moissanite-snowflake-stud-earrings",
+            "color": "#ffffff",
+            "horizontal": 70,
+            "vertical": 42
+          }
+        }
+      },
+      "block_order": [
+        "product_BXQbiM",
+        "product_bPeNGq",
+        "product_W9HcBn"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5-181202_1_1.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Complete the Look",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 48,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "shop_the_look_aqygTJ": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_e7UykG": {
+          "type": "product",
+          "settings": {
+            "product": "easy-square-gold-stud-earrings",
+            "color": "#ffffff",
+            "horizontal": 70,
+            "vertical": 36
+          }
+        },
+        "product_7Tb6Pc": {
+          "type": "product",
+          "settings": {
+            "product": "eternal-heart-gold-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 58,
+            "vertical": 88
+          }
+        }
+      },
+      "block_order": [
+        "product_e7UykG",
+        "product_7Tb6Pc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5-180278_1.jpg",
+        "layout": "text_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 0,
+        "padding_bottom": 96,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "custom_liquid_JkL47W": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"judgeme_product_reviews\" class=\"jdgm-widget jdgm-review-widget\" data-product-title=\"{{ product.title }}\" data-id=\"{{ product.id }}\"> {{ product.metafields.judgeme.widget }} <\/div>",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17155632117558d433": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_dWbkpC": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_dWbkpC"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 32,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "tab_collage_BEKCAp",
+    "kiks_product_image_with_text_nHhELQ",
+    "image_with_text_NYaMQr",
+    "kiks_product_tab_collage_pHpttM",
+    "tab_collage_kndQ4U",
+    "kiks_product_testimonials_3ebeFD",
+    "testimonials_kCzVek",
+    "recently-viewed-products",
+    "shop_the_look_cHLDAq",
+    "shop_the_look_aqygTJ",
+    "custom_liquid_JkL47W",
+    "17155632117558d433",
+    "product-recommendations"
+  ]
+}

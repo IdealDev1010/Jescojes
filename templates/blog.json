@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "rich_text_dNpjiM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KMpkzW": {
+          "type": "heading",
+          "settings": {
+            "heading": "BLOG",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_xHwada": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sharing the latest trends and designs in the market, as well as celebrating the different things to celebrate love.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KMpkzW",
+        "text_xHwada"
+      ],
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#000000",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "show_date": true,
+            "show_author": true,
+            "show_comment_count": true
+          }
+        },
+        "summary": {
+          "type": "summary",
+          "settings": {
+          }
+        },
+        "read_more": {
+          "type": "read_more",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "summary",
+        "read_more"
+      ],
+      "settings": {
+        "per_page": 12,
+        "show_tag_filter": true,
+        "show_image": true,
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "rich_text_dNpjiM",
+    "main"
+  ]
+}

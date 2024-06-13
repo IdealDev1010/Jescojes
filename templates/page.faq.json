@@ -1,0 +1,384 @@
+{
+  "sections": {
+    "rich_text_FpQpBz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3dhMjT": {
+          "type": "heading",
+          "settings": {
+            "heading": "How Can We Help You?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_ai6HVm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a question?<\/p><p>Feel free to check out our FAQs<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dhMjT",
+        "text_ai6HVm"
+      ],
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "image-banner-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "image-banner-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Answers to Your Questions<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image-banner-0",
+        "image-banner-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "550px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "question-0": {
+          "type": "question",
+          "settings": {
+            "title": "Do you have a warranty?",
+            "text": "<p>Under our warranty, we’ve got your back. This means that for 2 years from the date of purchase, we’ll take care of your product if any damage to the material or the workmanship of the jewelry occurs.<\/p><p>We work with top manufacturers to create handcrafted, responsibly sourced pieces that are made to last. We’re confident in the quality of our product hence the 2-year coverage. This also means that the warranty does not cover lost items, scratches that come with normal wear and tear (like a lost pearl or broken chain), improper use or storage of your product, and any modification to your product done by a third party outside of JESCOJES.<\/p><p>Please submit any warranty requests to <a href=\"mailto:mservice@jescojes.com\">service@jescojes.com <\/a>and our team will follow up with you within 2 business days. The round-trip express delivery fee and taxes that may occur will be borne by you.<\/p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p><strong>Have an account?<\/strong><\/p><p>Great! Login and head over to your JESCOJES account and select \"My Orders\" to review your order status. Once your order is packed and ready to ship, you’ll receive a tracking number via email so you can keep an eye on its activity while it makes its way to you.<\/p><p><strong>Don't have an account?<\/strong><\/p><p>No worries! You can still create an account now using the same email address used to place the order and it will appear under \"My Orders\". Tracking numbers are automatically sent as soon as your order is packed! Once the courier picks up the package and scans it into the system, the tracking number can be used to see the information about your order. This may take a couple hours and if the order was packed on the weekend, it will be updated next available business day!<\/p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the return policy?",
+            "text": "<p>Please refer to <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Refund policy<\/a><\/p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I cancel or update my order? or change my shipping address?",
+            "text": "<p>As our team works hard to get your order dispatched as quickly as possible, we cannot guarantee we will be able to cancel or update your order upon request. Please reach out to our Customer Experience Team by <a href=\"mailto:mservice@jescojes.com\">service@jescojes.com <\/a>and we will do our best to support you.<\/p>"
+          }
+        },
+        "question-4": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "What is the exchange policy?",
+            "text": "<p>We offer 30-day exchanges for all customers at all of our <span style=\"text-decoration:underline\">retail locations<\/span>. Please have your order confirmation email, order card, or gift receipt ready. To qualify for an exchange, all items must meet the same return qualifications listed in our Returns Policy.<\/p><p><strong>Online Purchase<\/strong><\/p><p>Online purchases can be exchanged in-store. We are not able to offer exchanges online at this time.<\/p><p><\/p><p><strong>In-Store & Buy Online, Pickup In-Store Purchase<\/strong><\/p><p>These orders can be exchanged <span style=\"text-decoration:underline\">in-store<\/span> only.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-0",
+        "question-2",
+        "question-1",
+        "question-3",
+        "question-4"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "General",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "faq_NMUGRp": {
+      "type": "faq",
+      "blocks": {
+        "question_3HAm6p": {
+          "type": "question",
+          "settings": {
+            "title": "DOES JESCOJES PROVIDE ENGAGEMENT RINGS ANDWEDDING BANDS?",
+            "text": "<p>JESCOJES advocates that contemporary people have the courage to explore their own selves, transcend themselves and show their true selves as the concept of light luxury jewelry and accessories to help people play the protagonist of their own lives with a confident mindset and a happy mood at all times. <\/p><p>Currently we focus on categories of major daily scenarios such as office, business, party, holiday and social activities, etc. So we do not provide engagement rings or wedding bands at the present.<\/p>"
+          }
+        },
+        "question_B9Ae8a": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Am I able to custom build my ring from scratch?",
+            "text": "<p>Yes, we understand that it is important for you to have your very own ring. From every claw to the finishing of the ring, every decision is yours. With our bespoke ring collection, you can choose your diamond and match it with your preferred ring colour, style and settings, all from scratch. Start building your ring<a href=\"https:\/\/love-and-co.com\/pages\/coming-soon\" target=\"_blank\">here<\/a><\/p>"
+          }
+        },
+        "question_D9qNta": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Will out of stock items be restocked?",
+            "text": "<p>We aim to ensure that all products listed online are available. If a design that you are interested in is out of stock, you can choose to get notified when item is available. Alternatively, you can email us and we can assist to run a check on its availability in stores or in our warehouse.<\/p>"
+          }
+        },
+        "question_FgY8mM": {
+          "type": "question",
+          "settings": {
+            "title": "HOW SHOULD I TAKE CARE OF MY JEWELLERY?",
+            "text": "<p>For jewelry that shines like new, please follow our care instructions:<br\/><\/p><ul><li>Wearing your jewelry regularly is key as it allows natural oils from your skin to enhance its luster.<br\/><\/li><li>Avoid wearing multiple metal pieces simultaneously to prevent collision, deformation, or scratches. Keep harsh chemicals like hair spray, bleach, chlorine, or toothpaste away from your jewelry.<br\/><\/li><li>Keep your jewelry dry, avoid wearing it while swimming or near hot springs and seawater.<br\/><\/li><li>When not in use, gently wipe the surface with a cotton cloth or tissue to remove moisture and dirt. Then store it in a sealed bag or box to prevent contact with air.<\/li><\/ul>"
+          }
+        },
+        "question_ijpAUP": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How do I untangle my necklace?",
+            "text": "<p>With all chain jewellery, it is a likely possibility that the chains might get tangled. You can try untangling your necklace with your fingers or using a safety pin. Do note to be as gentle as possible as you slowly work your way through the process. However, if it still does not work, you can bring down your jewellery to any of our stores, and our friendly store consultants can assist to untangle it for you.<\/p>"
+          }
+        },
+        "question_xKmp3d": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know the recommended necklace length?",
+            "text": "<p>Necklace and pendant comes in a huge variety of lengths and the recommended length varies from person to person. By default, our pendants are paired with a 40-45cm chain, which is the universal chain length. You can also refer to the details of each item for more information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_3HAm6p",
+        "question_B9Ae8a",
+        "question_D9qNta",
+        "question_FgY8mM",
+        "question_ijpAUP",
+        "question_xKmp3d"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Product Information & Sizing",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "faq_3GWBqR": {
+      "type": "faq",
+      "blocks": {
+        "question_4m99nd": {
+          "type": "question",
+          "settings": {
+            "title": "What are your available payment options?",
+            "text": "<p>We offer Paypal as first payment option. All our payment options are on our checkout page. If you encounter any issues with regards to payment, please contact us.<\/p>"
+          }
+        },
+        "question_nD8Dgk": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Do you provide buy now, pay later payment options?",
+            "text": "<p>Yes, we provide buy now, pay later payment options if you checkout with Shopback Paylater, Grab Paylater or Atome. You can simply select any of these 3 payment options at checkout.<\/p>"
+          }
+        },
+        "question_aAPATY": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "Can I pay by instalments?",
+            "text": "<p>If you prefer to split your payment, we offer a few instalment options. To pay by instalments, choose from Shopback Paylater (3 months), Grab Paylater (4 months) or Atome (3 months) at the checkout page.<br\/><br\/>Instalment payment options are also available in our retail stores, namely Shopback Paylater (3 months), Grab Paylater (4 months) or Atome (3 months).<\/p>"
+          }
+        },
+        "question_pcPwUe": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "If I refer my friend, do I get any discounts or benefits?",
+            "text": "<p>Spread the Love & Get Rewarded. Refer a friend to Love & Co. and be part of the referral program to enjoy special benefits for both you and your friend. Find out more about our referral program<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_4m99nd",
+        "question_nD8Dgk",
+        "question_aAPATY",
+        "question_pcPwUe"
+      ],
+      "settings": {
+        "narrow": true,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "Payments & Promotions",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Can't find what you're looking for?",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "rich-text-0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Send us an email to tell us what's up and someone from our Customer Service team will get back to you as soon as possible. Be sure to include your order number (if you have one). <\/p><p>Please email us at <a href=\"mailto:mservice@jescojes.com\">service@jescojes.com<\/a><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-0-0",
+        "rich-text-0-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Other inquiries? Let's chat.",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "rich-text-1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please email us at <a href=\"mailto:info@yourstore.com\" title=\"shop@yourstore.com\">shop@yourstore.com<\/a><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-1-0",
+        "rich-text-1-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "rich_text_FpQpBz",
+    "main",
+    "image-banner",
+    "faq",
+    "faq_NMUGRp",
+    "faq_3GWBqR",
+    "rich-text-0",
+    "rich-text-1"
+  ]
+}

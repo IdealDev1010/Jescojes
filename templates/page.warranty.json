@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "rich_text_FpQpBz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3dhMjT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Warranty",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_ai6HVm": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Have a question?<\/p><p>Feel free to check out our FAQs<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3dhMjT",
+        "text_ai6HVm"
+      ],
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "image-banner-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "image-banner-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Answers to Your Questions<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image-banner-0",
+        "image-banner-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_position": "center center",
+        "text_box_position": "bottom-center",
+        "text_alignment": "center",
+        "image_ratio": "550px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "rich-text-1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer warranty for 2 years from the date of purchase, we’ll take care of your product if any damage to the material or the workmanship of the jewelry occurs.<\/p><p>We work with top manufacturers to create handcrafted, responsibly sourced pieces that are made to last. We’re confident in the quality of our product hence the 2-year coverage. This also means that the warranty does not cover lost items, scratches that come with normal wear and tear (like a lost pearl or broken chain), improper use or storage of your product, and any modification to your product done by a third party outside of JESCOJES. <\/p><p>Please submit any warranty requests to <a href=\"mailto:mservice@jescojes.com\">service@jescojes.com <\/a>and our team will follow up with you within 2 business days. The round-trip express delivery fee and taxes that may occur will be borne by you. <\/p><p><strong>Important<\/strong><\/p><p>1. Items purchased through a third-party vendor (outside of JESCOJES.com) are not covered under JESCOJES’s warranty. Please reach out to the company the items were purchased from.<\/p><p>2. We do not recommend having our products worked on by outside jewelers as this voids any potential for refund or replacement (should a defect develop due to their work). This includes resizing or any type of repair work. <\/p><p>3. Please note that in order for us to continue improving, we may require any defective piece to be sent back to us for inspection and quality auditing.<\/p><p>4. Promotional products may be excluded from our warranty policy. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "rich-text-1-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": true,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "image_with_text_eCDmXT": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_YYTqFf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer warranty for 2 years from the date of purchase, we’ll take care of your product if any damage to the material or the workmanship of the jewelry occurs.<\/p><p>We work with top manufacturers to create handcrafted, responsibly sourced pieces that are made to last. We’re confident in the quality of our product hence the 2-year coverage. This also means that the warranty does not cover lost items, scratches that come with normal wear and tear (like a lost pearl or broken chain), improper use or storage of your product, and any modification to your product done by a third party outside of JESCOJES. <\/p><p>Please submit any warranty requests to <a href=\"mailto:mservice@jescojes.com\">service@jescojes.com <\/a>and our team will follow up with you within 2 business days. The round-trip express delivery fee and taxes that may occur will be borne by you. <\/p><p><strong>Important<\/strong><\/p><p>1. Items purchased through a third-party vendor (outside of JESCOJES.com) are not covered under JESCOJES’s warranty. Please reach out to the company the items were purchased from.<\/p><p>2. We do not recommend having our products worked on by outside jewelers as this voids any potential for refund or replacement (should a defect develop due to their work). This includes resizing or any type of repair work. <\/p><p>3. Please note that in order for us to continue improving, we may require any defective piece to be sent back to us for inspection and quality auditing.<\/p><p>4. Promotional products may be excluded from our warranty policy. <\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YYTqFf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mobile_Banner-3.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "750px",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "image_mobile": "shopify:\/\/shop_images\/5.180268_1.jpg",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "250px",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "rich_text_FpQpBz",
+    "main",
+    "image-banner",
+    "rich-text-1",
+    "image_with_text_eCDmXT"
+  ]
+}

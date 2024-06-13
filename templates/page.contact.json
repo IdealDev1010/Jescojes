@@ -1,0 +1,237 @@
+{
+  "sections": {
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/contact_us-2_cc31fc01-7d01-4298-8214-cab0526a84b4.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_image": "shopify:\/\/shop_images\/contact_us-2_cc31fc01-7d01-4298-8214-cab0526a84b4.jpg",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "rich_text_xUkp8B": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nezJ9t": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>JESCOJES operation center is located in 5th Floor, Building 11, No. 6055 Jinhai Highway, Fengxian District, Shanghai, China. While some designer’s studios are in the South Korea, United States, Canada, etc. We believe in delivering excellent customer service, and will do everything possible to satisfy our customers. If you have any questions, comments or suggestions, please feel free to contact us or email us at <a href=\"mailto:service@jescojes.com\" title=\"mailto:service@jescojes.com\">service@jescojes.com<\/a>.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "heading_exMwh7": {
+          "type": "heading",
+          "settings": {
+            "heading": "JESCOJES operation center is located in 5th Floor, Building 11, No. 6055 Jinhai Highway, Fengxian District, Shanghai, China. While some designer’s studios are in the South Korea, United States, Canada, etc. We believe in delivering excellent customer service, and will do everything possible to satisfy our customers. If you have any questions, comments or suggestions, please feel free to contact us or email us at service@jescojes.com.",
+            "heading_size": "p",
+            "heading_tag": "p"
+          }
+        }
+      },
+      "block_order": [
+        "text_nezJ9t",
+        "heading_exMwh7"
+      ],
+      "custom_css": [
+        ".h2 {font-weight: normal !important;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "blocks": {
+        "contact-0": {
+          "type": "contact",
+          "settings": {
+            "heading": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "contact-2": {
+          "type": "contact",
+          "settings": {
+            "heading": "9:00 AM - 6:00 PM, Monday - Friday (PST\/PDT)",
+            "text": "",
+            "link": "mailto:sales@yourstore.com"
+          }
+        },
+        "contact-1": {
+          "type": "contact",
+          "settings": {
+            "heading": "Kind Note:",
+            "text": "The address above is not for a product return, please contact our customer service at service@jescojes.com for the return address, thank you!",
+            "link": "mailto:shop@yourstore.com"
+          }
+        },
+        "contact-3": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "heading": "Press",
+            "text": "press@yourstore.com",
+            "link": "mailto:press@yourstore.com"
+          }
+        },
+        "media": {
+          "type": "media",
+          "disabled": true,
+          "settings": {
+            "heading": "Follow us"
+          }
+        }
+      },
+      "block_order": [
+        "contact-0",
+        "contact-2",
+        "contact-1",
+        "contact-3",
+        "media"
+      ],
+      "settings": {
+        "return_url": "",
+        "show_phone": true,
+        "show_divider": false,
+        "heading": "Message Us",
+        "heading_size": "h2",
+        "heading_tag": "h2",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "map": {
+      "type": "map",
+      "blocks": {
+        "map-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Store",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "map-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>620 King Street West<br\/>Toronto, ON M5V 1M7, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "map-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get directions",
+            "button_link": "",
+            "button_size": "small",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "map-0",
+        "map-1",
+        "map-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "map_address": "620 King St W, Toronto, ON M5V 1M7, Canada",
+        "map_api_key": "",
+        "map_zoom": 14,
+        "map_style": "standard",
+        "image_position": "center center",
+        "text_box_position": "middle-left",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_box_position": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "400px",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#1a1b18",
+        "colors_overlay": "#ffffff",
+        "gradient_overlay": "",
+        "colors_overlay_opacity": 100,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image-banner",
+    "main",
+    "rich_text_xUkp8B",
+    "form",
+    "map"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "sections": {
+    "multicolumn_mKaA8K": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_a3yKXm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andie-gomez-acebo-sEq4onJnWrI-unsplash.jpg",
+            "title": "Rewards",
+            "title_size": "h3",
+            "text": "<p>Start Earning Points Now!<\/p>",
+            "button_label": "Earn Points",
+            "button_link": "https:\/\/jescojes.com\/pages\/reward-program#smile-home",
+            "button_style_secondary": false
+          }
+        },
+        "column_bcyyLT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Footer.jpg",
+            "title": "Get $100 off",
+            "title_size": "h3",
+            "text": "<p>In-store appointment and purchase<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        },
+        "column_eEGNDK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1_1.png",
+            "title": "Affiliate Program",
+            "title_size": "h3",
+            "text": "<p>Minimum 10% Commission On All Referred Sales<\/p>",
+            "button_label": "Contact Us",
+            "button_link": "mailto:affiliate@jescojes.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "column_a3yKXm",
+        "column_bcyyLT",
+        "column_eEGNDK"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {background-color: #bda37d; color: #121212;}"
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "center",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 3,
+        "open_in_new_tab": false,
+        "heading": "My Profile",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_MBFxt4": {
+      "type": "rich-text",
+      "blocks": {
+        "button_bCdcmz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Track Your Order",
+            "button_link": "https:\/\/jescojes.com\/apps\/parcelpanel",
+            "button_size": "medium",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "button_bCdcmz"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "multicolumn_mKaA8K",
+    "main",
+    "rich_text_MBFxt4"
+  ]
+}

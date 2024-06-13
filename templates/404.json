@@ -1,0 +1,60 @@
+{
+  "sections": {
+    "rich_text_P8wYbL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hXCrJD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Page not Found",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_fgETm8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Go back to our homepage, or continue shopping below.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        },
+        "button_Qn8jHm": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL PRODUCTS",
+            "button_link": "shopify:\/\/collections\/all-products",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hXCrJD",
+        "text_fgETm8",
+        "button_Qn8jHm"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_P8wYbL"
+  ]
+}

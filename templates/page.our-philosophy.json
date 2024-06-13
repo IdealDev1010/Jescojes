@@ -1,0 +1,383 @@
+{
+  "sections": {
+    "video_hero_wzmbDa": {
+      "type": "video-hero",
+      "blocks": {
+        "heading_m9CEyd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_8iLpUF": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_LxCJEA": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m9CEyd",
+        "text_8iLpUF",
+        "button_LxCJEA"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_url": "",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "500px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gGtMnh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Philosophy",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gGtMnh"
+      ],
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "rich_text_jhLMxP": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fPKHb8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>JESCOJES<\/strong> is the abbreviation of French \"Je suis comme je suis\" (I am who I am), which advocates that contemporary people have the courage to explore their own selves, transcend themselves and show their true selves as the concept of light luxury jewelry and accessories to help people play the protagonist of their own lives with a confident mindset and a happy mood at all times.<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text_fPKHb8"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_DbnDkd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eKnyAH": {
+          "type": "column",
+          "settings": {
+            "title": "Vision",
+            "title_size": "h2",
+            "text": "<p>Enable hundreds of millions of fashion users around the world to conveniently shop for premium-quality, high-design and affordable jewelry.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_EB7y8E": {
+          "type": "column",
+          "settings": {
+            "title": "Mission",
+            "title_size": "h2",
+            "text": "<p>Build a bridge between jewelry users and designers & manufacturers, and optimize industrial efficiency to provide solutions that best meet users' needs.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "column_eKnyAH",
+        "column_EB7y8E"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 2,
+        "open_in_new_tab": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We aim to redefine the jewelry buying experience in a new way, making it a showcase of culture and personality, by ensuring the brand's excellence in <strong>design, quality<\/strong> and <strong>user experience<\/strong>. We carefully curate global supply chain and deep understanding of technology to offer unparalleled products that not only meet the high standards of the industry, but also provide a platform for jewelry designers to communicate directly with consumers around the world.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/philosophy-1.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>JESCOJES<\/strong> isn't just about selling jewelry; it's about fostering cultural exchange and innovation. Our brand builds a vibrant, win-win ecosystem for both designers and consumers, powered by a strong international network and the latest technology.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/philosophy-2_d48c8051-51e1-4705-b9b6-9be13fa07bb5.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "rich_text_jwBqgW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_FNaYDq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When the two world citizens' shared journeys intersect again, they discover a shared opportunity. They were inspired to start the business after hearing from friends and family at an international family gathering about the challenge of finding designer jewelry that was both personal and cost-effective. Determined to leverage their professional skills and international perspective, Oliver and Jimmy created <strong>JESCOJES <\/strong>in 2024, a brand name that draws on the French <strong>\"Je suis comme je suis\" (I am who I am)<\/strong>, symbolizing each person's uniqueness and pursuit of individual expression. desire.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "text_FNaYDq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": true,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#000000",
+        "colors_background": "#faf7f0",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    },
+    "image_with_text_overlay_jk8VFU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_RMYiEQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "This is JESCOJES, a truly international brand that helps everyone show the confidence and style of \"I am who I am\".",
+            "heading_size": "h2",
+            "heading_tag": "h2"
+          }
+        },
+        "button_qHbfLk": {
+          "type": "button",
+          "settings": {
+            "button_label": "See All Collection",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RMYiEQ",
+        "button_qHbfLk"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us-8.jpg",
+        "image_position": "center center",
+        "text_box_position": "flex-start",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_box_position": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "video_url": "",
+        "colors_button_label": "#000000",
+        "colors_button_background": "#bda37d",
+        "colors_text": "#212326",
+        "colors_overlay": "#faf7f0",
+        "colors_overlay_opacity": 92,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "empty_space_Lk3Bjt": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 64,
+        "mobile_height": 48
+      }
+    }
+  },
+  "order": [
+    "video_hero_wzmbDa",
+    "main",
+    "rich-text-0",
+    "rich_text_jhLMxP",
+    "multicolumn_DbnDkd",
+    "image-with-text-1",
+    "image-with-text-2",
+    "rich_text_jwBqgW",
+    "image_with_text_overlay_jk8VFU",
+    "empty_space_Lk3Bjt"
+  ]
+}

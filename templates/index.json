@@ -1,0 +1,750 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-2_small_46f8f29b-0333-440c-ad18-10178cee2e52.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/mobile_Banner-3_small_26b51f86-7347-44bf-8ccc-aae6933cc779.jpg",
+            "image_position": "center center",
+            "text_box_position": "bottom-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Summer for Jewelry",
+            "heading_size": "h0",
+            "heading_tag": "h2",
+            "text": "Seize the time for jewelry wearing.",
+            "text_size": "typeset2",
+            "button_label": "ORDER NOW",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "slide-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "bottom-center",
+            "subheading": "Add a tagline",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset2",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "bottom-right",
+            "subheading": "Add a tagline",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h0",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset2",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "slide-0",
+        "slide-1",
+        "slide-2"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "center",
+        "image_ratio": "adapt_first",
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "full_width": true,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#bda37d",
+        "colors_text": "#ffffff",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#1a1b18",
+        "colors_overlay_opacity": 20,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "guarantees_9DQkLz": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee_EkpKqn": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "quality-material",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Meticulously Sourced Materials",
+            "title_size": "h3",
+            "text": "<p>Strict sourcing of ethical, quality and environment-friendly materials, i.e. diamond, gemstone, precious metal, pearl, etc.<\/p>"
+          }
+        },
+        "guarantee_43f99z": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "group-ranking",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Exquisite Design",
+            "title_size": "h3",
+            "text": "<p>Jewelry designers from multiple backgrounds combine the essence of diverse culture and design concepts to meet your specific style preference.<\/p>"
+          }
+        },
+        "guarantee_RP8DAD": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "ensuring-durability",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Built to Endure",
+            "title_size": "h3",
+            "text": "<p>Senior artisans pour their expertise into crafting each piece to meet rigid quality criteria that ensures durability.<br\/><\/p>"
+          }
+        },
+        "guarantee_i8QQU3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "handshake",
+            "icon_size": "large",
+            "custom_icon": "",
+            "title": "Fair Pricing for Accessible Luxury",
+            "title_size": "h3",
+            "text": "<p>Cooperation with the best manufacturers to cut unnecessary costs while maintaining quality.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee_EkpKqn",
+        "guarantee_43f99z",
+        "guarantee_RP8DAD",
+        "guarantee_i8QQU3"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#faf7f0",
+        "gradient_background": "",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "collection_list_FbVepb": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_MmkER9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gold",
+            "image": "shopify:\/\/shop_images\/small.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_H8zbjK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "metal-s925",
+            "image": "shopify:\/\/shop_images\/S925-2_small_dd08a177-7741-449b-b817-67e1f12bb98a.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_7Mb8ah": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pearls",
+            "image": "shopify:\/\/shop_images\/small_d67fbff8-7891-4f66-a246-af2a1cbbdc53.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_YyQP4B": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moissanite",
+            "image": "shopify:\/\/shop_images\/small_6deb6d61-3a56-4e94-be34-2dbae5c66b1a.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_FphpK4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cubic-zirconia",
+            "image": "shopify:\/\/shop_images\/CZ_small_091b09b9-b5ee-4d9f-902a-2ddbd07f6a69.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_jqXaCc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruby-1",
+            "image": "shopify:\/\/shop_images\/Ruby_small_b38869c8-ff83-45d8-a3a6-c14a1d63456e.jpg",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_MmkER9",
+        "featured_collection_H8zbjK",
+        "featured_collection_7Mb8ah",
+        "featured_collection_YyQP4B",
+        "featured_collection_FphpK4",
+        "featured_collection_jqXaCc"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "remove_overlay": true,
+        "content_alignment": "center",
+        "show_divider": false,
+        "columns_desktop": 6,
+        "heading": "Shop by Materials",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "apply_overlay": false,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "mob_padding_top": 36,
+        "mob_padding_bottom": 41
+      }
+    },
+    "images_with_text_rWEfUC": {
+      "type": "images-with-text",
+      "blocks": {
+        "heading_GAf4dR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Embrace Your Authenticity with JESCOJES",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_mBgxqx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>JESCOJES is the abbreviation of French\"Je suis comme je suis\" (I am who I am), which advocates that contemporary people have the courage to explore their own selves, transcend themselves and show their true selves as the concept of light luxury jewelry and accessories to help people play the protagonist of their own lives with aconfident mindset and a happy mood at all times. <\/p><p>we aim to redefine the jewelry buying experience in a new way, making it a showcase of culture and personality, by ensuring the brand's excellence in design, quality and user experience. <\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_b8zcwn": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GAf4dR",
+        "text_mBgxqx",
+        "button_b8zcwn"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_us-9_small_df92c7e3-9812-43cb-90be-2444cb84ecf6.png",
+        "image_2": "shopify:\/\/shop_images\/about_us-4_small_028739f1-ef77-4a0a-8ded-3ac51802137e.jpg",
+        "image_3": "shopify:\/\/shop_images\/about_us-2_small_63756bc0-79b3-4517-86a4-d9da2b675db9.jpg",
+        "image_4": "shopify:\/\/shop_images\/about_us-5_small_ec19d4e2-45a9-4451-a860-2cf57a87acf1.jpg",
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "layout": "image_first",
+        "right_width": 40,
+        "left_width": 55,
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 24
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "collection": "choice-for-elegance",
+        "products_to_show": 4,
+        "collection_banner": false,
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Choice for Elegance",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "mob_padding_top": 24,
+        "mob_padding_bottom": 48
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where Style Meets Craftsmanship",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Explore our Artisan Showcase, where discerning users take center stage in selecting from a myriad of designer and fashion-forward styles. Discover high-quality jewelry and accessories at unbeatable prices, curated to elevate your everyday ensemble. Here, designers shine as they seize opportunities to engage with you, sharing their unique vision and craftsmanship, ensuring every piece stands out with distinction.<br\/><br\/><\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/collections",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".button {margin-top: 0;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_-_Column.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enable_fullwidth_content": false,
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "250px",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#bda37d",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mob_padding_top": 0,
+        "mob_padding_bottom": 0
+      }
+    },
+    "featured_collection_VcdwV9": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "eva",
+        "products_to_show": 3,
+        "collection_banner": true,
+        "horizontal_scroll": true,
+        "show_view_all": false,
+        "show_divider": false,
+        "heading": "Meet Designers",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mob_padding_top": 40,
+        "mob_padding_bottom": 40
+      }
+    },
+    "shop_the_look_UFFbdH": {
+      "type": "shop-the-look",
+      "blocks": {
+        "product_nE6C7p": {
+          "type": "product",
+          "settings": {
+            "product": "dreamy-butterfly-rose-gold-drop-earrings",
+            "color": "#ffffff",
+            "horizontal": 65,
+            "vertical": 45
+          }
+        },
+        "product_MiqChA": {
+          "type": "product",
+          "settings": {
+            "product": "dreamy-butterfly-rose-gold-pendant-necklace",
+            "color": "#ffffff",
+            "horizontal": 52,
+            "vertical": 85
+          }
+        }
+      },
+      "block_order": [
+        "product_nE6C7p",
+        "product_MiqChA"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/5-181062_1.jpg",
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "heading": "Jewelry You Deserve",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "mob_padding_top": 40,
+        "mob_padding_bottom": 40
+      }
+    },
+    "collection_list_g6VMRg": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_CJjp6C": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pearls",
+            "image": "shopify:\/\/shop_images\/5.180274_1.jpg",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_3Vr7rN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "snowflake-style",
+            "image": "shopify:\/\/shop_images\/5.180236_1.jpg",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_CJjp6C",
+        "featured_collection_3Vr7rN"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "remove_overlay": true,
+        "content_alignment": "center",
+        "show_divider": false,
+        "columns_desktop": 2,
+        "heading": "Popular Series",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": false,
+        "padding_top": 0,
+        "padding_bottom": 96,
+        "mob_padding_top": 0,
+        "mob_padding_bottom": 48
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>\"I've always believed that jewelry should tell a story, and this piece does exactly that. Its unique design and impeccable craftsmanship speak volumes about its quality and charm. Whether it's a casual day out or a special occasion, this jewelry effortlessly elevates my look and adds a touch of glamour to my life.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/image_13-2.jpg",
+            "author": "Jessa"
+          }
+        },
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>\"Exquisite craftsmanship and timeless elegance! This jewelry piece has effortlessly become my signature accessory, adding a touch of sophistication to every outfit. I'm constantly showered with compliments whenever I wear it. Truly a cherished investment!\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column-1.png",
+            "author": "Claire"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5",
+            "text": "<p>\"As someone who values both style and substance, this jewelry piece ticks all the boxes for me. Not only is it visually stunning, but its durability and timeless appeal make it a worthy investment. I've worn it countless times, and each wear feels like a celebration of elegance and grace.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/image_13-1.jpg",
+            "author": "Lana"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "icon": "5",
+            "text": "<p>\"Radiant and refined, this jewelry piece exudes unparalleled charm. Its intricate design and flawless sparkle captivate hearts and turn heads wherever I go. A true embodiment of elegance and luxury, it's more than just an accessory—it's a statement of style and sophistication.\"<\/p>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column_1.png",
+            "author": "Jason"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "icon": "5",
+            "text": "<ol><li>\"From the moment I laid eyes on this stunning piece, I knew it was meant to be mine. Its delicate beauty and intricate details elevate every outfit, making me feel like a queen wherever I go. I've received endless compliments and couldn't be happier with my purchase!\"<\/li><\/ol>",
+            "image": "shopify:\/\/shop_images\/Image_-_Column-2.png",
+            "author": "Nick"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-3",
+        "testimonial-0",
+        "testimonial-4",
+        "testimonial-1",
+        "testimonial-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #faf7f0;}"
+      ],
+      "settings": {
+        "autorotate": false,
+        "autorotate_speed": 5,
+        "hide_images": false,
+        "show_divider": false,
+        "heading": "Why They Love Us",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "padding_top": 96,
+        "padding_bottom": 96,
+        "mob_padding_top": 48,
+        "mob_padding_bottom": 48
+      }
+    },
+    "1715521151a3f98cf1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_JLw9nM": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Official Instagram",
+            "title_color": "#121212",
+            "title_size": 40,
+            "alignment": "center",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_JLw9nM"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "bundle_products_XbUHMB": {
+      "type": "bundle-products",
+      "blocks": {
+        "product_DxL9RN": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        },
+        "product_GwACQE": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 70,
+            "vertical": 45
+          }
+        },
+        "product_TBfKVC": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 45,
+            "vertical": 65
+          }
+        },
+        "product_dGTe77": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        },
+        "product_GBUEaf": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "image_ratio": "adapt",
+            "show_vendor": false,
+            "show_quick_buy": false,
+            "enable_quick_view": true,
+            "color": "#000000",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        }
+      },
+      "block_order": [
+        "product_DxL9RN",
+        "product_GwACQE",
+        "product_TBfKVC",
+        "product_dGTe77",
+        "product_GBUEaf"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "image_first",
+        "text_box_position": "top",
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "full_width": false,
+        "show_divider": false,
+        "subheading": "Bundle & Save",
+        "subheading_size": "h5",
+        "heading": "Build Your Own Basket",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "guarantees_9DQkLz",
+    "collection_list_FbVepb",
+    "images_with_text_rWEfUC",
+    "featured-collection",
+    "image-with-text-0",
+    "featured_collection_VcdwV9",
+    "shop_the_look_UFFbdH",
+    "collection_list_g6VMRg",
+    "testimonials",
+    "1715521151a3f98cf1",
+    "bundle_products_XbUHMB"
+  ]
+}

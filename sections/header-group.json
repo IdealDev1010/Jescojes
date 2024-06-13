@@ -1,0 +1,175 @@
+{
+  "name": "t:sections.header-group.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Final day for 20% Off Workmanship & Gifts with Purchase Make Mother's Day with Exclusive Treats",
+            "text_on_mobile": "",
+            "text_size": 13,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "only_homepage": false,
+        "layout": "carousel",
+        "mobile_layout": "marquee",
+        "autorotate": true,
+        "autorotate_speed": 5,
+        "show_navigation": true,
+        "direction": "left",
+        "speed": 1.6,
+        "colors_text": "#ffffff",
+        "colors_background": "#bda37d",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_eV86nh": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Earrings",
+            "narrow": true,
+            "show_menu_image": false,
+            "promo_image_1": "shopify:\/\/shop_images\/earing-_2_2290e0c7-a999-40a0-a35a-34469c208798.jpg",
+            "promo_image_ratio_1": "portrait",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "",
+            "promo_text_1": "",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "",
+            "promo_image_2": "shopify:\/\/shop_images\/earing-_1_d38d763c-9e15-4484-aed0-65d7a6f1b1ea.jpg",
+            "promo_image_ratio_2": "portrait",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": ""
+          }
+        },
+        "mega_menu_7DpNRC": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Necklaces",
+            "narrow": true,
+            "show_menu_image": false,
+            "promo_image_1": "shopify:\/\/shop_images\/necklace-_1.jpg",
+            "promo_image_ratio_1": "portrait",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "",
+            "promo_text_1": "",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "",
+            "promo_image_2": "shopify:\/\/shop_images\/necklace-_2.jpg",
+            "promo_image_ratio_2": "portrait",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": ""
+          }
+        },
+        "mega_menu_h48tEf": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Perfect Match",
+            "narrow": true,
+            "show_menu_image": false,
+            "promo_image_1": "shopify:\/\/shop_images\/perfect_match-_1.jpg",
+            "promo_image_ratio_1": "portrait",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "",
+            "promo_text_1": "",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "",
+            "promo_image_2": "shopify:\/\/shop_images\/perfect_match-_2.jpg",
+            "promo_image_ratio_2": "portrait",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": ""
+          }
+        },
+        "mega_menu_WxfXac": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_title": "Backup",
+            "narrow": false,
+            "show_menu_image": false,
+            "promo_image_1": "shopify:\/\/shop_images\/NEW_Arrival.jpg",
+            "promo_image_ratio_1": "portrait",
+            "promo_image_position_1": "center center",
+            "promo_heading_1": "NEW ARRIVAL",
+            "promo_text_1": "",
+            "promo_overlay_content_1": false,
+            "promo_link_1": "#",
+            "promo_image_2": "shopify:\/\/shop_images\/BEST_SELLERS.jpg",
+            "promo_image_ratio_2": "portrait",
+            "promo_image_position_2": "center center",
+            "promo_heading_2": "BEST SELLERS",
+            "promo_text_2": "",
+            "promo_overlay_content_2": false,
+            "promo_link_2": "#"
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_eV86nh",
+        "mega_menu_7DpNRC",
+        "mega_menu_h48tEf",
+        "mega_menu_WxfXac"
+      ],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/Jescojes_logo.png",
+        "logo_height": 50,
+        "mobile_logo_height": 44,
+        "logo_position": "middle-left",
+        "menu": "kikstart-heading",
+        "menu_mobile": "kikstart-heading",
+        "enable_dropdown_menu": true,
+        "show_line_separator": true,
+        "uppercase_menu_items": true,
+        "cart_icon": "bag",
+        "icon_weight": "1.1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_sticky_header": true,
+        "show_sticky_header_scroll_up": true,
+        "enable_transparent_header": false,
+        "enable_transparent_header_collection": false,
+        "enable_transparent_header_custom": "",
+        "show_transparent_header_border": false,
+        "transparent_text_color": "#ffffff",
+        "enable_highlight": false,
+        "highlight_labels": "",
+        "highlight_style": "marker",
+        "mobile_logo_position": "center",
+        "colors_text": "#282828",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "colors_highlight": "#bbff00",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
