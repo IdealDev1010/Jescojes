@@ -184,6 +184,7 @@
   text-decoration: none;
   padding-bottom: 0.2rem;
   color: rgb(var(--color-link));
+  margin: 0;
 }
 
 .card-information__text small {

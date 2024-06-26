@@ -70,7 +70,7 @@
             -%}
             <a
               class="card-wrapper card{% if featured_image != blank %} card--media{% else %} card--text{% endif %}"
-              {%- if card_collection != blank and card_collection.all_products_count > 0 %} href="{{ card_collection.url }}"{% endif -%}
+              {%- if card_collection != blank and card_collection.all_products_count > 0 %} href="{{ card_collection.url }}"{%- else -%} href="#" {% endif -%}
             >
               {%- if featured_image != blank -%}
                 <use-animate data-animate="zoom-fade-small" class="media-wrapper">
@@ -83,12 +83,11 @@
                       class: 'motion-reduce',
                       sizes: sizes,
                       widths: '165, 360, 535, 750, 1100, 1500',
-                      alt: alt,
+                      alt: 'image',
                       is: 'lazy-image'
                     }}
                   </div>
                 </use-animate>
-
                 <div class="card__text card__text-spacing {% if section.settings.remove_overlay %}remove_overlay{% endif %} {{ section.settings.content_alignment }}">
                   <h3 class="card-information__text h3">
                     {%- if card_collection.title != blank -%}

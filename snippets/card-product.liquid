@@ -263,7 +263,7 @@
               >
                 {%- if image.preview_image != blank -%}
                 {{ image.preview_image | image_url: width: 1100 | image_tag: loading: image_loading,
-                  class: 'motion-reduce', 
+                  class: 'motion-reduce lazyload', 
                   sizes: sizes, 
                   widths: widths,
                   alt: alt, 
@@ -299,7 +299,7 @@
                   >
                     {%- assign alt = 'sections.video.load_video' | t: description: block.settings.description | escape -%}
                     {{ image.preview_image | image_url: width: 1100 | image_tag: loading: image_loading,
-                      class: 'motion-reduce', 
+                      class: 'motion-reduce lazyload', 
                       sizes: sizes, 
                       widths: widths,
                       alt: alt, 
@@ -344,7 +344,7 @@
               media="(min-resolution: 2dppx) and (max-width: 749px)"
               srcset="{{ srcset_mobile_retina }}"
               sizes="{{ sizes }}">
-            {{ image.preview_image | image_url: width: 1100 | image_tag: loading: image_loading, class: 'motion-reduce', sizes: sizes, widths: widths, alt: alt, is: 'lazy-image' }}
+            {{ image.preview_image | image_url: width: 1100 | image_tag: loading: image_loading, class: 'motion-reduce lazyload', sizes: sizes, widths: widths, alt: alt, is: 'lazy-image' }}
           </picture>
           {%- if card_product.media[1] != nil and show_secondary_image -%}
             {%- liquid
@@ -354,7 +354,7 @@
             -%}
             {%- capture sizes_second -%}(min-width: 990px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, 1px{%- endcapture -%}
             <picture class="motion-reduce">
-              {{ image_second.preview_image | image_url: width: 1100 | image_tag: loading: image_loading, sizes: sizes_second, widths: widths_second, alt: alt_second, is: 'lazy-image' }}
+              {{ image_second.preview_image | image_url: width: 1100 | image_tag: loading: image_loading, sizes: sizes_second, widths: widths_second, alt: alt_second, is: 'lazy-image'}}
             </picture>
           {%- endif -%}
         </div>
@@ -392,9 +392,9 @@
         </div>
       {%- endif -%}
 
-      <a href="{{ card_url }}" class="card-information__text h4" tabindex="-1">
+      <h1 href="{{ card_url }}" class="card-information__text h4" tabindex="-1">
         {{ card_product.title | escape }}
-      </a>
+      </h1>
 
       {% comment %} TODO: metafield {% endcomment %}
       <span class="caption-large light">{{ block.settings.text | escape }}</span>

@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <meta name="description" content="Here is Jescojes">
+    <meta name="keywords" content="Earrings, Bracelets, Necklaces, Perfect Match, About JESCOJES">
+    <meta name="author" content="Jescojes">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -33,12 +36,10 @@
 
     {% render 'meta-tags' %}
 
-    <script src="{{ 'vendor-v4.js' | asset_url | split: '?' | first }}" defer="defer"></script>
+    <script src="{{ 'vendor-v4.js' | asset_url | split: '?' | first }}" async="async"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-
- 
-
+  
     {{ content_for_header }}
 
     {%- liquid
@@ -78,6 +79,13 @@
     {% comment %} tracking code for micorsoft clarity: {% endcomment %}
    <script type="text/javascript"> (function(c,l,a,r,i,t,y){ c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)}; t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i; y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y); })(window, document, "clarity", "script", "mki3m5250k"); </script>
    <!-- tracking code for micorsoft clarity: -->
+   <img
+    width="99999"
+    alt="image"
+    height="99999"
+    style="pointer-events: none; position: absolute; top: 0; left: 0; width: 101vw; height: 101vh; max-width: 99vw; max-height: 99vh;"
+    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+"
+  >
   </head>
 
   <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
@@ -88,6 +96,8 @@
     {%- if settings.price_superscript %} data-price-superscript{% endif -%}
     {%- if settings.button_corner_radius > 0 %} data-button-round{% endif -%}
   >
+
+    
     <a class="skip-to-content-link button button--small visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>

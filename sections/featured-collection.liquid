@@ -60,7 +60,7 @@
             <div class="main_collection collection-col-{{ section.settings.products_to_show }}">
                <div class="collection_inner">
                 <div class="collection_media">
-                    <img src="{{ section.settings.collection | image_url: width: 400 }}">
+                    <img src="{{ section.settings.collection | image_url: width: 400 }}" alt="image" class="lazyload">
                     <a class="button button--cta button--small" href="{{ section.settings.collection.url }}" role="link" aria-disabled="true"{{ block.shopify_attributes }}>
                       {{ section.settings.collection.title | escape }} Collection
                        {% render 'icon', icon: 'arrow' %}

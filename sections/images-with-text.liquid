@@ -44,7 +44,7 @@
 {{ 'section-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'section-images-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+<div class="section--padding gumsucss {% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="image-with-text image-with-text--alt page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="image-with-text__grid{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} grid grid--gapless grid--1-col grid--2-col-tablet">
       <div class="grid__item image_item">
@@ -58,7 +58,7 @@
               >
                 {%- liquid
                   if section.settings.image != blank
-                    echo section.settings.image | image_url: width: 1500 | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', is: 'lazy-image'
+                    echo section.settings.image | image_url: width: 400 | image_tag: loading: 'lazy', sizes: sizes, widths: '165, 360, 535, 750, 1100, 1500', is: 'lazy-image'
                   else
                     echo 'image' | placeholder_svg_tag: 'placeholder'
                   endif

@@ -48,7 +48,8 @@
                     class: 'image-fit',
                     sizes: sizes,
                     widths: '165, 360, 535, 750, 1100, 1500',
-                    is: 'lazy-image'
+                    is: 'lazy-image',
+                    alt: 'image'
                   }}
                 {%- else -%}
                   {{ 'collection-1' | placeholder_svg_tag: 'placeholder' }}

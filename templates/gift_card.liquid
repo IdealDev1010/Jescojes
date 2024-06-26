@@ -54,7 +54,7 @@
           <img srcset="{{ settings.gift_card_logo | image_url: height: logo_height }} 1x, {{ settings.gift_card_logo | image_url: height: logo_height_2x }} 2x"
             src="{{ settings.gift_card_logo | image_url: height: logo_height }}"
             loading="lazy"
-            class="gift-card__logo"
+            class="gift-card__logo lazyload"
             width="{{ settings.gift_card_logo.width }}"
             height="{{ settings.gift_card_logo.height }}"
             alt="{{ settings.gift_card_logo.alt | default: shop.name | escape }}"
@@ -81,7 +81,7 @@
   
       <main class="gift-card">
         <div class="gift-card__image-wrapper">
-          <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="" class="gift-card__image" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy"/>
+          <img src="{{ 'gift-card/card.svg' | shopify_asset_url }}" alt="image" class="gift-card__image lazyload" height="{{ 570 | divided_by: 1.5 }}" width="570" loading="lazy"/>
         </div>
         <div class="gift-card__information-wrapper">
           <div class="gift-card__price small-hide medium-hide no-print">
@@ -111,7 +111,7 @@
             </div>
             {%- if gift_card.pass_url -%}
               <a href="{{ gift_card.pass_url }}" class="gift_card__apple-wallet">
-                <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}" loading="lazy"/>
+                <img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" class="lazyload" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}" loading="lazy"/>
               </a>
             {%- endif -%}
             <div class="gift-card__buttons no-print">

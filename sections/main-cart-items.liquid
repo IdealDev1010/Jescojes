@@ -62,7 +62,7 @@
                         <div class="media media--adapt"
                           style="--image-ratio-percent: {{ 1 | divided_by: item.image.aspect_ratio | times: 100 }}%;"
                         >
-                          <img class="cart-item__image"
+                          <img class="cart-item__image lazyload"
                             srcset="{{ item.image | image_url: width: 70 }} 1x, {{ item.image | image_url: width: 140 }} 2x"
                             src="{{ item.image | image_url: width: 70 }}"
                             alt="{{ item.image.alt | escape | split: '#' | first }}"

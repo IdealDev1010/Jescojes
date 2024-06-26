@@ -52,10 +52,11 @@
                       >
                         {{ block.settings.image | image_url: width: 3000 | image_tag:
                           loading: 'lazy',
-                          class: 'collage-card__image',
+                          class: 'collage-card__image lazyload',
                           sizes: sizes,
                           widths: '375, 750, 1100, 1500, 1780, 2000, 3000',
-                          is: 'lazy-image'
+                          is: 'lazy-image',
+                          alt: 'image'
                         }}
                       </div>
                     {%- else -%}
@@ -114,12 +115,12 @@
                             assign widths = '375, 750, 1100, 1500, 1780, 2000, 3000'
 
                             assign alt = featured_media.alt | escape | split: '#' | first
-                            echo featured_media.preview_image | image_url: width: 3000 | image_tag: loading: 'lazy', class: 'collage-card__image', sizes: sizes, widths: widths, alt: alt, is: 'lazy-image'
+                            echo featured_media.preview_image | image_url: width: 3000 | image_tag: loading: 'lazy', class: 'collage-card__image lazyload', sizes: sizes, widths: widths, alt: alt, is: 'lazy-image'
 
                             if card_product.media[1] != nil and block.settings.second_image
                               assign media_2nd = card_product.media[1]
                               assign alt_2nd = media_2nd.alt | escape | split: '#' | first
-                              echo media_2nd.preview_image | image_url: width: 3000 | image_tag: loading: 'lazy', class: 'collage-card__image small-hide medium-hide', sizes: sizes, widths: widths, alt: alt_2nd, is: 'lazy-image'
+                              echo media_2nd.preview_image | image_url: width: 3000 | image_tag: loading: 'lazy', class: 'collage-card__image small-hide medium-hide lazyload', sizes: sizes, widths: widths, alt: alt_2nd, is: 'lazy-image'
                             endif
                           -%}
                           </div>

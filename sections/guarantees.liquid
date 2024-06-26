@@ -73,6 +73,7 @@
                         width="26"
                         height="{{ 26 | divided_by: block.settings.image.aspect_ratio | ceil }}"
                         is="lazy-image"
+                        class="lazyload"
                       />
                     </span>
                     {%- elsif block.settings.icon != 'none' -%}

@@ -80,6 +80,7 @@
                                 width="{{ block.settings.image.width }}"
                                 height="{{ block.settings.image.height }}"
                                 style="max-width: min(100%, {{ image_width }}px);"
+                                class="lazyload"
                               />
                             {%- else -%}
                               {{ 'image' | placeholder_svg_tag: 'placeholder' }}

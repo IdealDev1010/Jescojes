@@ -3596,3 +3596,7 @@ span[data-highlight=underline] mark svg path {
 quick-view.quick-view button.product-form__submit {
     color: #fff !important;
 }
+
+.h-wishlist-icon:hover {
+  cursor: pointer;
+}

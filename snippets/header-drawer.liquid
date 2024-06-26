@@ -235,12 +235,12 @@
           {%- endif -%}
        <div class="menu-drawer__utility-links swym-wishlist-drawer wishlist-mobile" data-animate data-animate-delay-{{ animate_count }}>
            <!-- wishlist-icon start -->
-            <a href="javascript:void(0)" class="header__icon desktop_wishlist h-wishlist-icon wishlist-page-widget drawer-menu-mobile">
+            <div class="header__icon desktop_wishlist h-wishlist-icon wishlist-page-widget drawer-menu-mobile">
               {% render 'wishlist-icon' %} <span class="swym-wishlist-name">Wishlist</span>
                {% comment %}
               <span class="wishlist-h-count wishlist-total-count" data-total="0">0</span>
               {% endcomment %}
-            </a>
+            </div>
              <!-- wishlist-icon end -->
           </div>
           <div class="menu-drawer__utility-links" data-animate data-animate-delay-{{ animate_count }}>

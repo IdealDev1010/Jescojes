@@ -452,6 +452,7 @@
                       height="{{ featured_media.preview_image.height }}"
                       alt="{{ featured_media.preview_image.alt | escape | split: '#' | first }}"
                       is="lazy-image"
+                      class="lazyload"
                     />
                   </div>
                   {%- if featured_media.media_type != 'image' -%}
@@ -521,6 +522,7 @@
                         height="{{ media.preview_image.height }}"
                         alt="{{ media.preview_image.alt | escape | split: '#' | first }}"
                         is="lazy-image"
+                        class="lazyload"
                       />
                     </div>
                     {%- if media.media_type != 'image' -%}
@@ -883,6 +885,7 @@
                     width="{{ block.settings.image.width }}"
                     height="{{ block.settings.image.height }}"
                     loading="lazy"
+                    class="lazyload"
                   />
                 {%- if block.settings.link != blank -%}
                   </a>
@@ -1148,6 +1151,7 @@
                     width="70"
                     height="{{ 70 | divided_by: block_image.preview_image.aspect_ratio | ceil }}"
                     is="lazy-image"
+                    class="lazyload"
                   />
                 </div>
               {%- endif -%}

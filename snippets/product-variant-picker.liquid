@@ -169,7 +169,7 @@
                {% assign variantName = option.name | split: " " | last | downcase %}
               {% if  variantName == 'color'  %}
                  {% if block.settings.swatches_source == 'variant' %} 
-                       <img src="{{ selected_variant.image.src | image_url: width: 42 }}" alt="{{ selected_variant.title }}" />
+                       <img src="{{ selected_variant.image.src | image_url: width: 42 }}" alt="{{ selected_variant.title }}" class="lazyload"/>
                     {% else %}
                       {{ value }}
                   {% endif %}
